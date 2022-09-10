@@ -1,0 +1,88 @@
+.banner {
+    background: url("./img/banner.jpeg") no-repeat center;
+    background-size: cover;
+    padding-top: 25rem;
+    padding-bottom: 25rem;
+    color: purple;
+    height: 100vh;
+}
+
+.circle {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: #fff;
+    background-color: #dc3545;
+}
+
+.circle i {
+    position: relative;
+    top: 33px;
+}
+
+
+.team img {
+    width: 250px;
+    border: 10px solid #cccccc;
+}
+
+a.social {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #333;
+    line-height: 40px;
+}
+
+
+a.social.tw:hover {
+    transition: all 1s ease-in-out;
+    transform: scale(1.15);
+    background-color: rgb(29, 155, 240);
+    -webkit-transform: scale(1.5);
+}
+
+a.social.fc:hover {
+    transition: all 1s ease-in-out;
+    transform: scale(1.15);
+    background-color: #139BF7;
+    -webkit-transform: scale(1.5);
+}
+
+a.social.lnk:hover {
+    transition: all 1s ease-in-out;
+    transform: scale(1.15);
+    background-color: #0A66C2;
+    -webkit-transform: scale(1.5);
+}
+
+a.social.yt:hover {
+    transition: all 1s ease-in-out;
+    transform: scale(1.15);
+    background-color: #FF0000;
+    -webkit-transform: scale(1.5);
+}
+
+a.social.inst:hover {
+    transition: all 1s ease-in-out;
+    transform: scale(1.15);
+    background-color: #F70090;
+    -webkit-transform: scale(1.5);
+}
+
+.client img {
+    height: auto;
+    max-height: 50px;
+}
+
+.contact {
+    background: url("./img/map.jpeg") center;
+    background-size: cover;
+    padding-bottom: 25rem;
+    padding-top: 25rem;
+    color: #eee;
+}
